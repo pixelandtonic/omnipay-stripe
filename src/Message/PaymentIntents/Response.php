@@ -143,6 +143,16 @@ class Response extends BaseResponse
     }
 
     /**
+     * Return the redirect method.
+     * 
+     * @return string
+     */
+    public function getRedirectMethod()
+    {
+        return 'GET';
+    }
+
+    /**
      * Get the payment intent reference.
      *
      * @return string|null
